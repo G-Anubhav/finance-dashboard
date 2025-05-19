@@ -7,7 +7,6 @@ const drawerWidth = 240;
 export default function Sidebar({ open, toggleSidebar }) {
   const location = useLocation();
 
-  // Sidebar content for both desktop and mobile
   const drawerContent = (
     <Box sx={{ width: drawerWidth, height: '100vh', bgcolor: 'background.paper' }}>
       <Toolbar sx={{ justifyContent: 'space-between', px: 2 }}>
@@ -45,7 +44,6 @@ export default function Sidebar({ open, toggleSidebar }) {
 
   return (
     <>
-      {/* Toggle button for mobile view */}
       {!open && (
         <IconButton
           edge="start"
@@ -64,7 +62,6 @@ export default function Sidebar({ open, toggleSidebar }) {
         </IconButton>
       )}
 
-      {/* Persistent drawer for desktop */}
       <Drawer
         variant="permanent"
         sx={{
@@ -78,7 +75,6 @@ export default function Sidebar({ open, toggleSidebar }) {
         {drawerContent}
       </Drawer>
 
-      {/* Temporary drawer for mobile */}
       <Drawer
         variant="temporary"
         open={open}

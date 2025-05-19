@@ -1,4 +1,3 @@
-// /components/Header.jsx
 import React, { useContext } from 'react';
 import { Box, Typography, Avatar, LinearProgress } from '@mui/material';
 import { FinanceContext } from '../context/FinanceContext';

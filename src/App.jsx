@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState } from 'react';
 import './App.css';
 import { ThemeProvider, CssBaseline, Box } from '@mui/material';

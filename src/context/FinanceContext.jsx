@@ -7,7 +7,6 @@ export const FinanceProvider = ({ children }) => {
   const [timeframe, setTimeframe] = useState('monthly'); // monthly | quarterly | ytd
   const [filteredTransactions, setFilteredTransactions] = useState(transactions);
 
-  // Budget data for the Budgeting Assistant
   const [budgets, setBudgets] = useState([
     { category: 'Food', spent: 200, limit: 500 },
     { category: 'Rent', spent: 800, limit: 1000 },
@@ -15,7 +14,6 @@ export const FinanceProvider = ({ children }) => {
     { category: 'Utilities', spent: 100, limit: 300 },
   ]);
 
-  // Filtering and searching transactions handled here
   const filterTransactions = (searchText = '', typeFilter = 'all') => {
     let filtered = transactions;
     if (typeFilter !== 'all') {

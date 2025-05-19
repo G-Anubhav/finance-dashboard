@@ -1,4 +1,3 @@
-// /components/FinancialOverviewCards.jsx
 import React, { useContext } from 'react';
 import { FinanceContext } from '../context/FinanceContext';
 import { Box, Card, CardContent, Typography, ToggleButtonGroup, ToggleButton } from '@mui/material';

@@ -1,5 +1,3 @@
-// /data/mockData.js
-
 export const user = {
   name: 'Vanshika Singh',
   avatar: 'https://i.pravatar.cc/150?img=32',

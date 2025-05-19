@@ -21,7 +21,10 @@ A responsive, dark-mode-enabled finance dashboard built with React, Material UI,
 
 ## Demo
 
-*(Optional: Add link or screenshots here)*
+![Screenshot (29)](https://github.com/user-attachments/assets/2699c8eb-9c9d-4f63-9a4a-5a4ce5db7f5b)
+![Screenshot (32)](https://github.com/user-attachments/assets/b599ccd3-f0a4-499b-963d-7809b84f8211)
+![Screenshot (30)](https://github.com/user-attachments/assets/6d4466fc-7201-47d4-bb08-55036fb3e197)
+
 
 ---
 

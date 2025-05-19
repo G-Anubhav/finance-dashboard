@@ -24,8 +24,9 @@ export default function TransactionsTable() {
   const [typeFilter, setTypeFilter] = useState('all');
 
   useEffect(() => {
-    filterTransactions(searchText, typeFilter);
-  }, [searchText, typeFilter]);
+  filterTransactions(searchText, typeFilter);
+}, [searchText, typeFilter, filterTransactions]);
+
 
   return (
     <motion.div

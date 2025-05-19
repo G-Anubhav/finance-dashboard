@@ -1,5 +1,3 @@
-// /components/NotificationsTips.jsx
-import React from 'react';
 import { Box, Typography, Paper, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import { Notifications, Lightbulb } from '@mui/icons-material';
 import { motion } from 'framer-motion';

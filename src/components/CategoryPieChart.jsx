@@ -1,6 +1,5 @@
-// /components/CategoryPieChart.jsx
 import React, { useContext, useState } from 'react';
-import { Box, Typography, Legend, useTheme } from '@mui/material';
+import { Box, Typography, useTheme } from '@mui/material';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 import { FinanceContext } from '../context/FinanceContext';
 import { motion } from 'framer-motion';

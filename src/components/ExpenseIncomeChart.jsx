@@ -1,11 +1,7 @@
-// /components/ExpenseIncomeChart.jsx
-import React, { useContext, useState } from 'react';
 import { Box, Typography, useTheme } from '@mui/material';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import { FinanceContext } from '../context/FinanceContext';
 import { motion } from 'framer-motion';
 
-// Dummy monthly data for chart
 const monthlyData = [
   { month: 'Jan', income: 6000, expenses: 4500 },
   { month: 'Feb', income: 6200, expenses: 4800 },

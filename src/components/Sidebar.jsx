@@ -1,5 +1,3 @@
-// /components/Sidebar.jsx
-import React from 'react';
 import { Drawer, List, ListItemButton, ListItemIcon, ListItemText, Toolbar, IconButton, Box, Typography } from '@mui/material';
 import { Dashboard, Receipt, Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
 import { Link, useLocation } from 'react-router-dom';
